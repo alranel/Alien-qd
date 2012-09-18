@@ -1,0 +1,4 @@
+Build.PL
+lib/Alien/qd.pm
+MANIFEST			This list of files
+qd-2.3.13.tar.gz
