@@ -4,7 +4,7 @@
       "Alessandro Ranellucci <aar@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4214",
    "license" : [
       "perl_5"
    ],
@@ -16,13 +16,13 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Alien::Base" : "0",
-            "Module::Build" : "0.40"
+            "Alien::Base" : "0.021",
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
          "requires" : {
-            "Alien::Base" : "0",
+            "Alien::Base" : "0.021",
             "File::ShareDir" : "1.00",
             "perl" : "v5.8.1"
          }
@@ -36,9 +36,19 @@
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "mailto" : "aar@cpan.org",
+         "web" : "http://github.com/alexrj/Alien-qd/issues"
+      },
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/alexrj/Alien-qd.git",
+         "web" : "http://github.com/alexrj/Alien-qd"
+      }
    },
-   "version" : "0.01"
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }
